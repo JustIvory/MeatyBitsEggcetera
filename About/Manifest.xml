@@ -2,7 +2,7 @@
 <Manifest>
     <identifier>MeatyBitsEggcetera</identifier>
     <version>1.0.3</version>
-    <manifestUri></manifestUri>
+    <manifestUri>https://raw.githubusercontent.com/JustIvory/MeatyBitsEggcetera/master/About/Manifest.xml</manifestUri>
     <downloadUri>https://www.nexusmods.com/rimworld/mods/267</downloadUri>
     <loadAfter>
         <li>[1.0]LostForest</li>
