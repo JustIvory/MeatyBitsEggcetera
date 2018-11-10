@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef Name="MincedMeat">
+    <defName>MincedMeat</defName>
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>75</stackLimit>
+    <alwaysHaulable>true</alwaysHaulable>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <rotatable>false</rotatable>
+    <pathCost>15</pathCost>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <label>minced meat</label>
+    <description>Various types of meats that have been chopped up and mixed together. What could be in it? That is a mystery!</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>MeatSmall</texPath>
+      <color>(153,51,51)</color>
+    </graphicData>
+    <statBases>
+      <Beauty>-10</Beauty>
+      <MarketValue>3.5</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Flammability>0.8</Flammability>
+      <DeteriorationRate>20</DeteriorationRate>
+      <Mass>0.1</Mass>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>RawBad</preferability>
+      <tasteThought>AteRawFood</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>RawMeat_Eat</ingestSound>
+      <foodType>Meat</foodType>
+    </ingestible>
+    <thingCategories>
+      <li>MeatRaw</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>3</daysToRotStart>
+      </li>
+    </comps>
+    <tickerType>Normal</tickerType>
+  </ThingDef>
+</Defs>

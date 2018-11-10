@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_Fennex"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_Fennex"]/race</xpath>
+				<value>
+					<useMeatFrom>Human</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_Frijjid"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_Frijjid"]/race</xpath>
+				<value>
+					<useMeatFrom>Human</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

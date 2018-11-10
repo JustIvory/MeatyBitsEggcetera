@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RecipeDef>
+    <defName>MincedMeatRecipe</defName>
+    <label>Chop meat</label>
+    <description>Chop up various types of meat to produce minced meat.</description>
+    <jobString>Chopping meat.</jobString>
+    <workAmount>200</workAmount>
+    <workSkill>Cooking</workSkill>
+    <efficiencyStat>ButcheryFleshEfficiency</efficiencyStat>
+    <effectWorking>ButcherFlesh</effectWorking>
+    <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+
+    <products>
+      <MincedMeat>2</MincedMeat>
+    </products>
+
+    <fixedIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+      </categories>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>Meat_Human</li>
+        <li>MincedMeat</li>
+      </disallowedThingDefs>
+    </defaultIngredientFilter>
+
+    <recipeUsers>
+      <li>TableButcher</li>
+      <li>ButcherSpot</li>
+    </recipeUsers>
+    
+  </RecipeDef>
+
+</Defs>

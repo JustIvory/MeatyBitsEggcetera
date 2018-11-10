@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/ThingDef[defName = "SCMiniatureDachshund"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "SCMiniatureDachshund"]/race</xpath>
+				<value>
+					<useMeatFrom>Husky</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/ThingDef[defName = "MiniatureSchnauzer"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "MiniatureSchnauzer"]/race</xpath>
+				<value>
+					<useMeatFrom>Husky</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/ThingDef[defName = "SCPug"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "SCPug"]/race</xpath>
+				<value>
+					<useMeatFrom>Husky</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/ThingDef[defName = "SCWelshCorgi"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "SCWelshCorgi"]/race</xpath>
+				<value>
+					<useMeatFrom>Husky</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/ThingDef[defName = "SCAfghanHound"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "SCAfghanHound"]/race</xpath>
+				<value>
+					<useMeatFrom>Husky</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/ThingDef[defName = "BorderCollie"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "BorderCollie"]/race</xpath>
+				<value>
+					<useMeatFrom>Husky</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/ThingDef[defName = "Beagle"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Beagle"]/race</xpath>
+				<value>
+					<useMeatFrom>Husky</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/ThingDef[defName = "Chowchow"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Chowchow"]/race</xpath>
+				<value>
+					<useMeatFrom>Husky</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/ThingDef[defName = "Collie"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Collie"]/race</xpath>
+				<value>
+					<useMeatFrom>Husky</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/ThingDef[defName = "Doberman"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Doberman"]/race</xpath>
+				<value>
+					<useMeatFrom>Husky</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/ThingDef[defName = "GoldenRetriever"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "GoldenRetriever"]/race</xpath>
+				<value>
+					<useMeatFrom>Husky</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/ThingDef[defName = "SCGreyhound"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "SCGreyhound"]/race</xpath>
+				<value>
+					<useMeatFrom>Husky</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/ThingDef[defName = "SCOldEnglishSheepdog"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "SCOldEnglishSheepdog"]/race</xpath>
+				<value>
+					<useMeatFrom>Husky</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/ThingDef[defName = "SCStandardPoodle"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "SCStandardPoodle"]/race</xpath>
+				<value>
+					<useMeatFrom>Husky</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/ThingDef[defName = "SCBorzoi"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "SCBorzoi"]/race</xpath>
+				<value>
+					<useMeatFrom>Husky</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/ThingDef[defName = "Bullmastiff"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Bullmastiff"]/race</xpath>
+				<value>
+					<useMeatFrom>Husky</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/ThingDef[defName = "Caucasianshepherd"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Caucasianshepherd"]/race</xpath>
+				<value>
+					<useMeatFrom>Husky</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/ThingDef[defName = "IrishWolfhound"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "IrishWolfhound"]/race</xpath>
+				<value>
+					<useMeatFrom>Husky</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/ThingDef[defName = "Saintbernard"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Saintbernard"]/race</xpath>
+				<value>
+					<useMeatFrom>Husky</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/ThingDef[defName = "SCNewfoundland"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "SCNewfoundland"]/race</xpath>
+				<value>
+					<useMeatFrom>Husky</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/ThingDef[defName = "SCBullTerrier"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "SCBullTerrier"]/race</xpath>
+				<value>
+					<useMeatFrom>Husky</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+</Patch>

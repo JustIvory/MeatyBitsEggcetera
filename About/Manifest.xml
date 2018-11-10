@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+    <identifier>MeatyBitsEggcetera</identifier>
+    <version>1.0.3</version>
+    <manifestUri></manifestUri>
+    <downloadUri>https://www.nexusmods.com/rimworld/mods/267</downloadUri>
+    <loadAfter>
+        <li>[1.0]LostForest</li>
+        <li>[RF]Fishing[1.0]</li>
+        <li>AnimalCollabProj</li>
+        <li>ArgoniansofBlackmarsh</li>
+        <li>BeastManTribes</li>
+        <li>Cab'sBeatTheMeat[1.0/B19]</li>
+        <li>FerrexRace1.0</li>
+        <li>RaccRace</li>
+        <li>VulpineRacePack</li>
+        <li>XennRace</li>
+        <li>Spidercamp'sDogPack(1.0)</li>
+    </loadAfter>
+</Manifest>

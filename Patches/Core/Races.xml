@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Muffalo"]/race</xpath>
+		<value>
+			<useMeatFrom>Cow</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Gazelle"]/race</xpath>
+		<value>
+			<useMeatFrom>Deer</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Iguana"]/race</xpath>
+		<value>
+			<meatLabel>exotic meat</meatLabel>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "Iguana"]/comps</xpath>
+		<value>
+			<comps>
+				<li Class="CompProperties_EggLayer">
+			    	<eggUnfertilizedDef>EggUnfertilizedSmall</eggUnfertilizedDef>
+			    	<eggFertilizedDef>EggIguanaFertilized</eggFertilizedDef>
+			        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+			        <eggLayIntervalDays>15</eggLayIntervalDays>
+			        <eggCountRange>
+			          <min>1</min>
+			          <max>2</max>
+			        </eggCountRange>
+			    </li>
+			</comps>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Dromedary"]/race</xpath>
+		<value>
+			<useMeatFrom>Iguana</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "Bear_Grizzly"]/race/meatLabel</xpath>
+		<value>
+			<meatLabel>game meat</meatLabel>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "Bear_Polar"]/race/useMeatFrom</xpath>
+		<value>
+			<useMeatFrom>Bear_Grizzly</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Cougar"]</xpath>
+		<value>
+			<race>
+				<useMeatFrom>Bear_Grizzly</useMeatFrom>
+			</race>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Panther"]</xpath>
+		<value>
+			<race>
+				<useMeatFrom>Bear_Grizzly</useMeatFrom>
+			</race>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Lynx"]/race</xpath>
+		<value>
+			<useMeatFrom>Bear_Grizzly</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "Cassowary"]/race/meatLabel</xpath>
+		<value>
+			<useMeatFrom>Chicken</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "Cassowary"]/comps</xpath>
+		<value>
+			<comps>
+				<li Class="CompProperties_EggLayer">
+			    	<eggUnfertilizedDef>EggUnfertilizedLarge</eggUnfertilizedDef>
+			    	<eggFertilizedDef>EggCassowaryFertilized</eggFertilizedDef>
+			        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+			        <eggLayIntervalDays>17</eggLayIntervalDays>
+			        <eggCountRange>1</eggCountRange>
+			    </li>
+			</comps>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "Emu"]/race/useMeatFrom</xpath>
+		<value>
+			<useMeatFrom>Chicken</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "Emu"]/comps</xpath>
+		<value>
+			<comps>
+				<li Class="CompProperties_EggLayer">
+			    	<eggUnfertilizedDef>EggUnfertilizedLarge</eggUnfertilizedDef>
+			    	<eggFertilizedDef>EggEmuFertilized</eggFertilizedDef>
+			        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+			        <eggLayIntervalDays>17</eggLayIntervalDays>
+			        <eggCountRange>1</eggCountRange>
+			    </li>
+			</comps>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "Ostrich"]/race/useMeatFrom</xpath>
+		<value>
+			<useMeatFrom>Chicken</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "Ostrich"]/comps</xpath>
+		<value>
+			<comps>
+				<li Class="CompProperties_EggLayer">
+			    	<eggUnfertilizedDef>EggUnfertilizedLarge</eggUnfertilizedDef>
+			    	<eggFertilizedDef>EggOstrichFertilized</eggFertilizedDef>
+			        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+			        <eggLayIntervalDays>19</eggLayIntervalDays>
+			        <eggCountRange>1</eggCountRange>
+			    </li>
+			</comps>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Turkey"]/race</xpath>
+		<value>
+			<useMeatFrom>Iguana</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "Turkey"]/comps</xpath>
+		<value>
+			<comps>
+				<li Class="CompProperties_EggLayer">
+			    	<eggUnfertilizedDef>EggUnfertilizedLarge</eggUnfertilizedDef>
+			    	<eggFertilizedDef>EggTurkeyFertilized</eggFertilizedDef>
+			        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+			        <eggLayIntervalDays>11</eggLayIntervalDays>
+			        <eggCountRange>1</eggCountRange>
+			    </li>
+			</comps>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Chicken"]/race</xpath>
+		<value>
+			<meatLabel>poultry</meatLabel>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "Chicken"]/comps</xpath>
+		<value>
+			<comps>
+				<li Class="CompProperties_EggLayer">
+			    	<eggUnfertilizedDef>EggUnfertilizedSmall</eggUnfertilizedDef>
+			    	<eggFertilizedDef>EggChickenFertilized</eggFertilizedDef>
+			        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+			        <eggLayIntervalDays>1</eggLayIntervalDays>
+			        <eggCountRange>1</eggCountRange>
+			    </li>
+			</comps>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "Pig"]/race/meatLabel</xpath>
+		<value>
+			<meatLabel>pork</meatLabel>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "Cow"]/race/meatLabel</xpath>
+		<value>
+			<meatLabel>beef</meatLabel>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Alpaca"]/race</xpath>
+		<value>
+			<useMeatFrom>Iguana</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Rhinoceros"]/race</xpath>
+		<value>
+			<useMeatFrom>Bear_Grizzly</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Elephant"]/race</xpath>
+		<value>
+			<useMeatFrom>Bear_Grizzly</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Megasloth"]/race</xpath>
+		<value>
+			<useMeatFrom>Bear_Grizzly</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Thrumbo"]/race</xpath>
+		<value>
+			<useMeatFrom>Bear_Grizzly</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Hare"]</xpath>
+		<value>
+			<race>
+				<meatLabel>rabbit meat</meatLabel>
+			</race>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "Snowhare"]/race/useMeatFrom</xpath>
+		<value>
+			<useMeatFrom>Hare</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "YorkshireTerrier"]/race</xpath>
+		<value>
+			<useMeatFrom>Husky</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Husky"]/race</xpath>
+		<value>
+			<meatLabel>dog meat</meatLabel>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "LabradorRetriever"]/race</xpath>
+		<value>
+			<useMeatFrom>Husky</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Cat"]/race</xpath>
+		<value>
+			<meatLabel>kitty meat</meatLabel>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Squirrel"]/race</xpath>
+		<value>
+			<meatLabel>meat scraps</meatLabel>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Alphabeaver"]/race</xpath>
+		<value>
+			<useMeatFrom>Bear_Grizzly</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Capybara"]/race</xpath>
+		<value>
+			<useMeatFrom>Iguana</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Chinchilla"]/race</xpath>
+		<value>
+			<useMeatFrom>Squirrel</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Boomrat"]/race</xpath>
+		<value>
+			<useMeatFrom>Squirrel</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Raccoon"]/race</xpath>
+		<value>
+			<useMeatFrom>Iguana</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Rat"]/race</xpath>
+		<value>
+			<useMeatFrom>Squirrel</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "Deer"]/race/meatLabel</xpath>
+		<value>
+			<meatLabel>venison</meatLabel>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Ibex"]/race</xpath>
+		<value>
+			<useMeatFrom>Deer</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Elk"]/race</xpath>
+		<value>
+			<useMeatFrom>Deer</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Caribou"]/race</xpath>
+		<value>
+			<useMeatFrom>Deer</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "WildBoar"]/race/useMeatFrom</xpath>
+		<value>
+			<useMeatFrom>Pig</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Tortoise"]/race</xpath>
+		<value>
+			<useMeatFrom>Iguana</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "Tortoise"]/comps</xpath>
+		<value>
+			<comps>
+				<li Class="CompProperties_EggLayer">
+			    	<eggUnfertilizedDef>EggUnfertilizedSmall</eggUnfertilizedDef>
+			    	<eggFertilizedDef>EggTortoiseFertilized</eggFertilizedDef>
+			        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+			        <eggLayIntervalDays>20</eggLayIntervalDays>
+			        <eggCountRange>
+			          <min>1</min>
+			          <max>3</max>
+			        </eggCountRange>
+			    </li>
+			</comps>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "Cobra"]/race/meatLabel</xpath>
+		<value>
+			<useMeatFrom>Iguana</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "Cobra"]/comps</xpath>
+		<value>
+			<comps>
+				<li Class="CompProperties_EggLayer">
+			    	<eggUnfertilizedDef>EggUnfertilizedSmall</eggUnfertilizedDef>
+			    	<eggFertilizedDef>EggCobraFertilized</eggFertilizedDef>
+				    <eggFertilizationCountMax>1</eggFertilizationCountMax>
+				    <eggLayIntervalDays>20.0</eggLayIntervalDays>
+				    <eggCountRange>
+				      <min>1</min>
+				      <max>2</max>
+				    </eggCountRange>  
+			    </li>
+			</comps>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Monkey"]/race</xpath>
+		<value>
+			<useMeatFrom>Iguana</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Boomalope"]/race</xpath>
+		<value>
+			<useMeatFrom>Iguana</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Warg"]/race</xpath>
+		<value>
+			<useMeatFrom>Iguana</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "Wolf_Timber"]/race/meatLabel</xpath>
+		<value>
+			<useMeatFrom>Bear_Grizzly</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "Wolf_Arctic"]/race/useMeatFrom</xpath>
+		<value>
+			<useMeatFrom>Bear_Grizzly</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "Fox_Fennec"]/race/meatLabel</xpath>
+		<value>
+			<useMeatFrom>Bear_Grizzly</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "Fox_Red"]/race/useMeatFrom</xpath>
+		<value>
+			<useMeatFrom>Bear_Grizzly</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "Fox_Arctic"]/race/useMeatFrom</xpath>
+		<value>
+			<useMeatFrom>Bear_Grizzly</useMeatFrom>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Human"]/race</xpath>
+		<value>
+			<meatLabel>humanoid meat</meatLabel>
+		</value>
+	</Operation>
+</Patch>

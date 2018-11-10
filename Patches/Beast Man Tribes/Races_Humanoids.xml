@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/AlienRace.ThingDef_AlienRace[defName = "BearMan"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "BearMan"]/race</xpath>
+				<value>
+					<useMeatFrom>Human</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/AlienRace.ThingDef_AlienRace[defName = "CamelMan"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "CamelMan"]/race</xpath>
+				<value>
+					<useMeatFrom>Human</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/AlienRace.ThingDef_AlienRace[defName = "ElephantMan"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "ElephantMan"]/race</xpath>
+				<value>
+					<useMeatFrom>Human</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/AlienRace.ThingDef_AlienRace[defName = "ElkMan"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "ElkMan"]/race</xpath>
+				<value>
+					<useMeatFrom>Human</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/AlienRace.ThingDef_AlienRace[defName = "FoxMan"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "FoxMan"]/race</xpath>
+				<value>
+					<useMeatFrom>Human</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/AlienRace.ThingDef_AlienRace[defName = "GazelleMan"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "GazelleMan"]/race</xpath>
+				<value>
+					<useMeatFrom>Human</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/AlienRace.ThingDef_AlienRace[defName = "LynxMan"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "LynxMan"]/race</xpath>
+				<value>
+					<useMeatFrom>Human</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/AlienRace.ThingDef_AlienRace[defName = "PigMan"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "PigMan"]/race</xpath>
+				<value>
+					<useMeatFrom>Human</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/AlienRace.ThingDef_AlienRace[defName = "RaccoonMan"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "RaccoonMan"]/race</xpath>
+				<value>
+					<useMeatFrom>Human</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/AlienRace.ThingDef_AlienRace[defName = "WolfMan"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "WolfMan"]/race</xpath>
+				<value>
+					<useMeatFrom>Human</useMeatFrom>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

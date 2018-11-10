@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/ThingDef[defName = "LF_EggFlammeliaUnfertilized"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "LF_EggFlammeliaUnfertilized"]</xpath>
+				<value>
+					<thingCategories>
+						<li>AnimalProductRaw</li>
+					</thingCategories>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "LF_EggFlammeliaUnfertilized"]/label</xpath>
+				<value>
+					<label>flammelia egg</label>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

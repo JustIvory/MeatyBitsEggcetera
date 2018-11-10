@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Meaty Bits and Eggcetera</name>
+	<author>Justine Ivor</author>
+	<targetVersion>1.0.2059</targetVersion>
+	<description>
+Meat from creatures have been simplified into fewer types for easy sorting and storage. These meat types can be chopped and combined to make minced meat. Animals also lay simplified types of unfertilized eggs that can be stacked for easy storage.
+
+Meat Types:
+ - Poultry
+ - Beef
+ - Pork
+ - Venison
+ - Game meat
+ - Insect meat
+ - Humanoid meat
+ - Rabbit meat
+ - Dog meat
+ - Kitty meat
+ - Exotic meat
+ - Meat scraps
+
+ Meat types with use of other mods:
+ - Mutton
+ - Seafood
+
+Egg Types:
+ - Egg (Sm)
+ - Egg (Lg)
+
+Built in support for other mods:
+ - AnimalCollabProj
+ - Spidercamp's Dog Pack
+ - Lost Forest
+ - Rainbeau Flambe's Fishing
+ - Vulpine Race Pack
+ - Ferrex Race
+ - Racc Race
+ - Xenn Race
+ - Beast Man Tribes
+ - Argonians of Blackmarsh
+ - Fantasy Goblins (outdated)
+ - Orassans (outdated)
+ - Tree People (outdated)
+ - Cab's Beat The Meat
+
+ Mods that do not require a patch:
+ - Astoriel
+	</description>
+</ModMetaData>

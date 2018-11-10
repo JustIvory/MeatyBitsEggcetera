@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/RecipeDef[defName = "CookMealSushi"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "CookMealSushi"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<thingDefs>
+						<li>RawFishMeat</li>
+					</thingDefs>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/RecipeDef[defName = "CookMealBoiledShellfish"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "CookMealBoiledShellfish"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<thingDefs>
+						<li>Lobster</li>
+						<li>Crab</li>
+						<li>Crayfish</li>
+					</thingDefs>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/RecipeDef[defName = "CookMealEscargot"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "CookMealEscargot"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<thingDefs>
+						<li>Snail</li>
+					</thingDefs>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/RecipeDef[defName = "CookMealShrimpScampi"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "CookMealShrimpScampi"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<thingDefs>
+						<li>Shrimp</li>
+					</thingDefs>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/RecipeDef[defName = "Cook4MealSushi"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "Cook4MealSushi"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<thingDefs>
+						<li>RawFishMeat</li>
+					</thingDefs>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/RecipeDef[defName = "Cook4MealBoiledShellfish"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "Cook4MealBoiledShellfish"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<thingDefs>
+						<li>Lobster</li>
+						<li>Crab</li>
+						<li>Crayfish</li>
+					</thingDefs>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/RecipeDef[defName = "Cook4MealEscargot"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "Cook4MealEscargot"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<thingDefs>
+						<li>Snail</li>
+					</thingDefs>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/RecipeDef[defName = "Cook4MealShrimpScampi"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "Cook4MealShrimpScampi"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<thingDefs>
+						<li>Shrimp</li>
+					</thingDefs>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/Defs/RecipeDef[defName = "MakeCucumberMed"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "MakeCucumberMed"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<thingDefs>
+						<li>SeaCucumber</li>
+					</thingDefs>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
