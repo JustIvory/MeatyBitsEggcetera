@@ -878,12 +878,13 @@
 					<comps>
 						<li Class="CompProperties_EggLayer">
 							<eggUnfertilizedDef>EggUnfertilizedSmall</eggUnfertilizedDef>
+							<eggFertilizedDef>ACPEggPtarmiganFertilized</eggFertilizedDef>
 					        <eggFertilizationCountMax>1</eggFertilizationCountMax>
 					        <eggLayIntervalDays>5</eggLayIntervalDays>
 					        <eggCountRange>
 						  		<min>1</min>
 					        	<max>5</max>
-						</eggCountRange>
+							</eggCountRange>
 					    </li>
 					</comps>
 				</value>
