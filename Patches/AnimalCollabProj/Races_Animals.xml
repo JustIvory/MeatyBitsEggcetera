@@ -292,11 +292,20 @@
 				<xpath>*/Defs/ThingDef[defName = "ACPMajoreraGoat"]</xpath>
 				<success>Invert</success>
 			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName = "ACPMajoreraGoat"]/race/useMeatFrom</xpath>
-				<value>
-					<useMeatFrom>Iguana</useMeatFrom>
-				</value>
+			<li Class="PatchOperationConditional">
+				<xpath>*/Defs/ThingDef[defName = "ACPSheep"]</xpath>
+				<nomatch Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "ACPMajoreraGoat"]/race/useMeatFrom</xpath>
+					<value>
+						<useMeatFrom>Iguana</useMeatFrom>
+					</value>
+				</nomatch>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "ACPMajoreraGoat"]/race/useMeatFrom</xpath>
+					<value>
+						<useMeatFrom>ACPSheep</useMeatFrom>
+					</value>
+				</match>
 			</li>
 		</operations>
 	</Operation>
