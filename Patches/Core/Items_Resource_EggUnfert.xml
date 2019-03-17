@@ -3,4 +3,8 @@
 	<Operation Class="PatchOperationRemove">
 		<xpath>/Defs/ThingCategoryDef[defName = "EggsUnfertilized"]/parent</xpath>
 	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@Name = "EggUnfertBase"]/thingCategories</xpath>
+			<li>AnimalProductRaw</li>
+	</Operation>
 </Patch>
