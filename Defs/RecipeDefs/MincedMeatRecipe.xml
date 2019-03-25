@@ -38,7 +38,7 @@
       </categories>
       <disallowedThingDefs>
         <li>Meat_Human</li>
-		<li>Meat_Megaspider</li>
+        <li>Meat_Megaspider</li>
         <li>MincedMeat</li>
       </disallowedThingDefs>
     </defaultIngredientFilter>
@@ -47,6 +47,7 @@
       <li>ButcherSpot</li>
     </recipeUsers>
   </RecipeDef>
+
   <RecipeDef>
     <defName>MincedMeatRecipe10</defName>
     <label>Chop meat x10</label>
@@ -85,7 +86,7 @@
       </categories>
       <disallowedThingDefs>
         <li>Meat_Human</li>
-		<li>Meat_Megaspider</li>
+        <li>Meat_Megaspider</li>
         <li>MincedMeat</li>
       </disallowedThingDefs>
     </defaultIngredientFilter>
@@ -94,6 +95,7 @@
       <li>ButcherSpot</li>
     </recipeUsers>
   </RecipeDef>
+
   <RecipeDef>
     <defName>MincedMeatRecipe50</defName>
     <label>Chop meat x50</label>
@@ -132,7 +134,7 @@
       </categories>
       <disallowedThingDefs>
         <li>Meat_Human</li>
-		<li>Meat_Megaspider</li>
+        <li>Meat_Megaspider</li>
         <li>MincedMeat</li>
       </disallowedThingDefs>
     </defaultIngredientFilter>
