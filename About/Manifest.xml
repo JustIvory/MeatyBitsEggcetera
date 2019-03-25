@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
     <identifier>MeatyBitsEggcetera</identifier>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <manifestUri>https://raw.githubusercontent.com/JustIvory/MeatyBitsEggcetera/master/About/Manifest.xml</manifestUri>
     <downloadUri>https://www.nexusmods.com/rimworld/mods/267</downloadUri>
     <loadAfter>
