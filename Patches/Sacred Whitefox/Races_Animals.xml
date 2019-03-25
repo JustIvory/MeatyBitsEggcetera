@@ -4,8 +4,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "Whitefox"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "Whitefox"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "Whitefox"]/race/meatLabel</xpath>

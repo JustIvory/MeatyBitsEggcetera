@@ -4,8 +4,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "LF_Leffy"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "LF_Leffy"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "LF_Leffy"]/race/meatLabel</xpath>
@@ -19,8 +19,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "LF_PetiteServantDragon"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "LF_PetiteServantDragon"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "LF_PetiteServantDragon"]/race/useMeatFrom</xpath>
@@ -34,8 +34,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "LF_Dragonia"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "LF_Dragonia"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "LF_Dragonia"]/race/useMeatFrom</xpath>
@@ -49,8 +49,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "LF_Flammelia"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "LF_Flammelia"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "LF_Flammelia"]/race/useMeatFrom</xpath>
@@ -64,8 +64,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "LF_Foxia"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "LF_Foxia"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "LF_Foxia"]/race/useMeatFrom</xpath>
@@ -79,8 +79,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "LF_Glacia"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "LF_Glacia"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "LF_Glacia"]/race/useMeatFrom</xpath>
@@ -94,8 +94,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "LF_Wolvern"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "LF_Wolvern"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "LF_Wolvern"]/race/useMeatFrom</xpath>
@@ -109,8 +109,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "LF_Lefca"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "LF_Lefca"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "LF_Lefca"]/race/useMeatFrom</xpath>

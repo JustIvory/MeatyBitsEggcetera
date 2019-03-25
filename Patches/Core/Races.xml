@@ -22,8 +22,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "Iguana"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "Iguana"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "Iguana"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
@@ -32,7 +32,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName = "Iguana"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+				<xpath>/Defs/ThingDef[defName = "Iguana"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
 			</li>
 		</operations>
 	</Operation>
@@ -86,8 +86,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "Cassowary"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "Cassowary"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "Cassowary"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
@@ -96,7 +96,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName = "Cassowary"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+				<xpath>/Defs/ThingDef[defName = "Cassowary"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
 			</li>
 		</operations>
 	</Operation>
@@ -110,8 +110,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "Emu"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "Emu"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "Emu"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
@@ -120,7 +120,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName = "Emu"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+				<xpath>/Defs/ThingDef[defName = "Emu"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
 			</li>
 		</operations>
 	</Operation>
@@ -134,8 +134,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "Ostrich"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "Ostrich"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "Ostrich"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
@@ -144,7 +144,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName = "Ostrich"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+				<xpath>/Defs/ThingDef[defName = "Ostrich"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
 			</li>
 		</operations>
 	</Operation>
@@ -158,8 +158,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "Turkey"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "Turkey"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "Turkey"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
@@ -168,7 +168,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName = "Turkey"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+				<xpath>/Defs/ThingDef[defName = "Turkey"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
 			</li>
 		</operations>
 	</Operation>
@@ -182,8 +182,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "Chicken"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "Chicken"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "Chicken"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
@@ -192,7 +192,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName = "Chicken"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+				<xpath>/Defs/ThingDef[defName = "Chicken"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
 			</li>
 		</operations>
 	</Operation>
@@ -358,8 +358,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "Tortoise"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "Tortoise"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "Tortoise"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
@@ -368,7 +368,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName = "Tortoise"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+				<xpath>/Defs/ThingDef[defName = "Tortoise"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
 			</li>
 		</operations>
 	</Operation>
@@ -382,8 +382,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "Cobra"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "Cobra"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "Cobra"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
@@ -392,7 +392,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName = "Cobra"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+				<xpath>/Defs/ThingDef[defName = "Cobra"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
 			</li>
 		</operations>
 	</Operation>

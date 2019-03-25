@@ -5,11 +5,11 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPAngoraRabbit"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPAngoraRabbit"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>*/Defs/ThingDef[defName = "ACPAngoraRabbit"]/race/useMeatFrom</xpath>
+				<xpath>/Defs/ThingDef[defName = "ACPAngoraRabbit"]/race/useMeatFrom</xpath>
 				<value>
 					<useMeatFrom>Hare</useMeatFrom>
 				</value>
@@ -21,11 +21,11 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPDomesticRabbit"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPDomesticRabbit"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>*/Defs/ThingDef[defName = "ACPDomesticRabbit"]/race/useMeatFrom</xpath>
+				<xpath>/Defs/ThingDef[defName = "ACPDomesticRabbit"]/race/useMeatFrom</xpath>
 				<value>
 					<useMeatFrom>Hare</useMeatFrom>
 				</value>
@@ -37,11 +37,11 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPBison"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPBison"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>*/Defs/ThingDef[defName = "ACPBison"]/race/useMeatFrom</xpath>
+				<xpath>/Defs/ThingDef[defName = "ACPBison"]/race/useMeatFrom</xpath>
 				<value>
 					<useMeatFrom>Cow</useMeatFrom>
 				</value>
@@ -53,8 +53,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPBlackbear"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPBlackbear"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPBlackbear"]/race/useMeatFrom</xpath>
@@ -69,8 +69,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPBlackRhinoceros"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPBlackRhinoceros"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPBlackRhinoceros"]/race/useMeatFrom</xpath>
@@ -85,8 +85,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPLion"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPLion"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "ACPLion"]/race</xpath>
@@ -101,8 +101,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPTiger"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPTiger"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "ACPTiger"]/race</xpath>
@@ -117,8 +117,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPCheetah"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPCheetah"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "ACPCheetah"]/race</xpath>
@@ -133,8 +133,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPAmurLeopard"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPAmurLeopard"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "ACPAmurLeopard"]/race</xpath>
@@ -149,8 +149,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPSnowLeopard"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPSnowLeopard"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "ACPSnowLeopard"]/race</xpath>
@@ -165,8 +165,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPChipmunk"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPChipmunk"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPChipmunk"]/race/useMeatFrom</xpath>
@@ -181,8 +181,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPMunchkinCat"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPMunchkinCat"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPMunchkinCat"]/race/useMeatFrom</xpath>
@@ -197,8 +197,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPDuck"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPDuck"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPDuck"]/race/useMeatFrom</xpath>
@@ -212,8 +212,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPDuck"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPDuck"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPDuck"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
@@ -222,7 +222,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName = "ACPDuck"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+				<xpath>/Defs/ThingDef[defName = "ACPDuck"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
 			</li>
 		</operations>
 	</Operation>
@@ -231,8 +231,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPDuckBilledPlatypus"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPDuckBilledPlatypus"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "ACPDuckBilledPlatypus"]/race</xpath>
@@ -246,8 +246,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPDuckBilledPlatypus"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPDuckBilledPlatypus"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPDuckBilledPlatypus"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
@@ -256,7 +256,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName = "ACPDuckBilledPlatypus"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+				<xpath>/Defs/ThingDef[defName = "ACPDuckBilledPlatypus"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
 			</li>
 		</operations>
 	</Operation>
@@ -265,8 +265,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPFerret"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPFerret"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPFerret"]/race/useMeatFrom</xpath>
@@ -281,8 +281,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPGiraffe"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPGiraffe"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPGiraffe"]/race/useMeatFrom</xpath>
@@ -297,11 +297,11 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPMajoreraGoat"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPMajoreraGoat"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationConditional">
-				<xpath>*/Defs/ThingDef[defName = "ACPSheep"]</xpath>
+				<xpath>/Defs/ThingDef[defName = "ACPSheep"]</xpath>
 				<nomatch Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName = "ACPMajoreraGoat"]/race/useMeatFrom</xpath>
 					<value>
@@ -322,8 +322,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPDomesticGoose"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPDomesticGoose"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "ACPDomesticGoose"]/race</xpath>
@@ -337,8 +337,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPDomesticGoose"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPDomesticGoose"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPDomesticGoose"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
@@ -347,7 +347,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName = "ACPDomesticGoose"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+				<xpath>/Defs/ThingDef[defName = "ACPDomesticGoose"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
 			</li>
 		</operations>
 	</Operation>
@@ -356,8 +356,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPWildGoose"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPWildGoose"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "ACPWildGoose"]/race</xpath>
@@ -371,8 +371,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPWildGoose"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPWildGoose"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPWildGoose"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
@@ -381,7 +381,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName = "ACPWildGoose"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+				<xpath>/Defs/ThingDef[defName = "ACPWildGoose"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
 			</li>
 		</operations>
 	</Operation>
@@ -390,8 +390,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPGreatBustard"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPGreatBustard"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPGreatBustard"]/race/useMeatFrom</xpath>
@@ -405,8 +405,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPGreatBustard"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPGreatBustard"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPGreatBustard"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
@@ -415,7 +415,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName = "ACPGreatBustard"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+				<xpath>/Defs/ThingDef[defName = "ACPGreatBustard"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
 			</li>
 		</operations>
 	</Operation>
@@ -424,8 +424,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPGuineaPig"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPGuineaPig"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPGuineaPig"]/race/useMeatFrom</xpath>
@@ -440,8 +440,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPHedgehog"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPHedgehog"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPHedgehog"]/race/useMeatFrom</xpath>
@@ -456,8 +456,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPHippopotamus"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPHippopotamus"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPHippopotamus"]/race/meatLabel</xpath>
@@ -472,8 +472,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPHoneyBadger"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPHoneyBadger"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPHoneyBadger"]/race/useMeatFrom</xpath>
@@ -488,8 +488,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPHorse"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPHorse"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPHorse"]/race/meatLabel</xpath>
@@ -504,8 +504,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPWoolyHorse"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPWoolyHorse"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPWoolyHorse"]/race/useMeatFrom</xpath>
@@ -520,8 +520,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPSilkspider"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPSilkspider"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPSilkspider"]/race/useMeatFrom</xpath>
@@ -536,8 +536,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPHaulerAnt"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPHaulerAnt"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPHaulerAnt"]/race/useMeatFrom</xpath>
@@ -552,8 +552,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPAcidAnt"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPAcidAnt"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPAcidAnt"]/race/useMeatFrom</xpath>
@@ -568,8 +568,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPJackalope"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPJackalope"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPJackalope"]/race/useMeatFrom</xpath>
@@ -584,8 +584,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPKiwi"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPKiwi"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPKiwi"]/race/useMeatFrom</xpath>
@@ -599,8 +599,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPKiwi"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPKiwi"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPKiwi"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
@@ -609,7 +609,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName = "ACPKiwi"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+				<xpath>/Defs/ThingDef[defName = "ACPKiwi"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
 			</li>
 		</operations>
 	</Operation>
@@ -618,8 +618,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPKomodo"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPKomodo"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPKomodo"]/race/useMeatFrom</xpath>
@@ -633,8 +633,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPKomodo"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPKomodo"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPKomodo"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
@@ -643,7 +643,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName = "ACPKomodo"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+				<xpath>/Defs/ThingDef[defName = "ACPKomodo"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
 			</li>
 		</operations>
 	</Operation>
@@ -652,8 +652,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPXenguana"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPXenguana"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPXenguana"]/race/useMeatFrom</xpath>
@@ -667,8 +667,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPXenguana"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPXenguana"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPXenguana"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
@@ -677,7 +677,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName = "ACPXenguana"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+				<xpath>/Defs/ThingDef[defName = "ACPXenguana"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
 			</li>
 		</operations>
 	</Operation>
@@ -686,8 +686,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPXGecko"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPXGecko"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPXGecko"]/race/useMeatFrom</xpath>
@@ -701,8 +701,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPXGecko"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPXGecko"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPXGecko"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
@@ -711,7 +711,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName = "ACPXGecko"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+				<xpath>/Defs/ThingDef[defName = "ACPXGecko"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
 			</li>
 		</operations>
 	</Operation>
@@ -720,8 +720,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPLlama"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPLlama"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPLlama"]/race/useMeatFrom</xpath>
@@ -736,8 +736,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPFishercat"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPFishercat"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "ACPFishercat"]/race</xpath>
@@ -752,8 +752,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPErmine"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPErmine"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "ACPErmine"]/race</xpath>
@@ -768,8 +768,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPMegabadger"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPMegabadger"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPMegabadger"]/race/useMeatFrom</xpath>
@@ -784,8 +784,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPMegaFerret"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPMegaFerret"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPMegaFerret"]/race/useMeatFrom</xpath>
@@ -800,8 +800,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPOtter"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPOtter"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPOtter"]/race/useMeatFrom</xpath>
@@ -816,8 +816,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPPanda"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPPanda"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPPanda"]/race/useMeatFrom</xpath>
@@ -832,8 +832,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPPeccary"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPPeccary"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPPeccary"]/race/useMeatFrom</xpath>
@@ -848,8 +848,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPPenguin"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPPenguin"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPPenguin"]/race/useMeatFrom</xpath>
@@ -863,8 +863,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPPenguin"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPPenguin"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPPenguin"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
@@ -873,7 +873,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName = "ACPPenguin"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+				<xpath>/Defs/ThingDef[defName = "ACPPenguin"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
 			</li>
 		</operations>
 	</Operation>
@@ -882,8 +882,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPPorcupine"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPPorcupine"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPPorcupine"]/race/useMeatFrom</xpath>
@@ -898,8 +898,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPPtarmigan"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPPtarmigan"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPPtarmigan"]/race/useMeatFrom</xpath>
@@ -913,8 +913,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPPtarmigan"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPPtarmigan"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPPtarmigan"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
@@ -923,7 +923,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName = "ACPPtarmigan"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+				<xpath>/Defs/ThingDef[defName = "ACPPtarmigan"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
 			</li>
 		</operations>
 	</Operation>
@@ -932,8 +932,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPValleyQuail"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPValleyQuail"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPValleyQuail"]/race/useMeatFrom</xpath>
@@ -947,8 +947,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPValleyQuail"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPValleyQuail"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPValleyQuail"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
@@ -957,7 +957,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName = "ACPValleyQuail"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+				<xpath>/Defs/ThingDef[defName = "ACPValleyQuail"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
 			</li>
 		</operations>
 	</Operation>
@@ -966,8 +966,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPRedPanda"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPRedPanda"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "ACPRedPanda"]/race</xpath>
@@ -982,8 +982,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPMegascorpion"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPMegascorpion"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPMegascorpion"]/race/useMeatFrom</xpath>
@@ -998,8 +998,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPSpottedSeal"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPSpottedSeal"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPSpottedSeal"]/race/useMeatFrom</xpath>
@@ -1014,8 +1014,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPSheep"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPSheep"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPSheep"]/race/meatLabel</xpath>
@@ -1030,8 +1030,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPSilkieChicken"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPSilkieChicken"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPSilkieChicken"]/race/useMeatFrom</xpath>
@@ -1045,8 +1045,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPSilkieChicken"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPSilkieChicken"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPSilkieChicken"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
@@ -1055,7 +1055,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName = "ACPSilkieChicken"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+				<xpath>/Defs/ThingDef[defName = "ACPSilkieChicken"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
 			</li>
 		</operations>
 	</Operation>
@@ -1064,8 +1064,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPTapir"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPTapir"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPTapir"]/race/useMeatFrom</xpath>
@@ -1080,8 +1080,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPThornyDevil"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPThornyDevil"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPThornyDevil"]/race/useMeatFrom</xpath>
@@ -1095,8 +1095,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPThornyDevil"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPThornyDevil"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPThornyDevil"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
@@ -1105,7 +1105,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName = "ACPThornyDevil"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+				<xpath>/Defs/ThingDef[defName = "ACPThornyDevil"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
 			</li>
 		</operations>
 	</Operation>
@@ -1114,8 +1114,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPWalrus"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPWalrus"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPWalrus"]/race/useMeatFrom</xpath>
@@ -1130,8 +1130,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPWildDog"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPWildDog"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPWildDog"]/race/meatLabel</xpath>
@@ -1146,8 +1146,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPDirewolf"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPDirewolf"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPDirewolf"]/race/useMeatFrom</xpath>
@@ -1162,8 +1162,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPBlackwolf"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPBlackwolf"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPBlackwolf"]/race/useMeatFrom</xpath>
@@ -1178,8 +1178,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPSpiritwolf"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPSpiritwolf"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPSpiritwolf"]/race/useMeatFrom</xpath>
@@ -1194,8 +1194,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPSpiritwolfFF"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPSpiritwolfFF"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPSpiritwolfFF"]/race/useMeatFrom</xpath>
@@ -1210,8 +1210,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPWoolyRhino"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPWoolyRhino"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPWoolyRhino"]/race/useMeatFrom</xpath>
@@ -1226,8 +1226,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "ACPFlamingo"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "ACPFlamingo"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ACPFlamingo"]/race/useMeatFrom</xpath>
