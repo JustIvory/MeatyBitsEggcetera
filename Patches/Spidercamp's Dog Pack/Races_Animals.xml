@@ -4,8 +4,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "SCMiniatureDachshund"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "SCMiniatureDachshund"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "SCMiniatureDachshund"]/race</xpath>
@@ -19,8 +19,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "MiniatureSchnauzer"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "MiniatureSchnauzer"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "MiniatureSchnauzer"]/race</xpath>
@@ -34,8 +34,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "SCPug"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "SCPug"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "SCPug"]/race</xpath>
@@ -49,8 +49,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "SCWelshCorgi"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "SCWelshCorgi"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "SCWelshCorgi"]/race</xpath>
@@ -64,8 +64,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "SCAfghanHound"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "SCAfghanHound"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "SCAfghanHound"]/race</xpath>
@@ -79,8 +79,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "BorderCollie"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "BorderCollie"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "BorderCollie"]/race</xpath>
@@ -94,8 +94,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "Beagle"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "Beagle"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "Beagle"]/race</xpath>
@@ -109,8 +109,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "Chowchow"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "Chowchow"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "Chowchow"]/race</xpath>
@@ -124,8 +124,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "Collie"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "Collie"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "Collie"]/race</xpath>
@@ -139,8 +139,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "Doberman"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "Doberman"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "Doberman"]/race</xpath>
@@ -154,8 +154,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "GoldenRetriever"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "GoldenRetriever"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "GoldenRetriever"]/race</xpath>
@@ -169,8 +169,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "SCGreyhound"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "SCGreyhound"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "SCGreyhound"]/race</xpath>
@@ -184,8 +184,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "SCOldEnglishSheepdog"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "SCOldEnglishSheepdog"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "SCOldEnglishSheepdog"]/race</xpath>
@@ -199,8 +199,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "SCStandardPoodle"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "SCStandardPoodle"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "SCStandardPoodle"]/race</xpath>
@@ -214,8 +214,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "SCBorzoi"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "SCBorzoi"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "SCBorzoi"]/race</xpath>
@@ -229,8 +229,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "Bullmastiff"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "Bullmastiff"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "Bullmastiff"]/race</xpath>
@@ -244,8 +244,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "Caucasianshepherd"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "Caucasianshepherd"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "Caucasianshepherd"]/race</xpath>
@@ -259,8 +259,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "IrishWolfhound"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "IrishWolfhound"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "IrishWolfhound"]/race</xpath>
@@ -274,8 +274,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "Saintbernard"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "Saintbernard"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "Saintbernard"]/race</xpath>
@@ -289,8 +289,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "SCNewfoundland"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "SCNewfoundland"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "SCNewfoundland"]/race</xpath>
@@ -304,8 +304,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "SCBullTerrier"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "SCBullTerrier"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "SCBullTerrier"]/race</xpath>
@@ -315,5 +315,5 @@
 			</li>
 		</operations>
 	</Operation>
-	
+
 </Patch>

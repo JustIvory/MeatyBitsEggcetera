@@ -4,8 +4,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "LF_EggFlammeliaUnfertilized"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "LF_EggFlammeliaUnfertilized"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "LF_EggFlammeliaUnfertilized"]</xpath>

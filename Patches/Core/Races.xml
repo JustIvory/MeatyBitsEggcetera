@@ -18,22 +18,23 @@
 			<meatLabel>exotic meat</meatLabel>
 		</value>
 	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName = "Iguana"]/comps</xpath>
-		<value>
-			<comps>
-				<li Class="CompProperties_EggLayer">
-			    	<eggUnfertilizedDef>EggUnfertilizedSmall</eggUnfertilizedDef>
-			    	<eggFertilizedDef>EggIguanaFertilized</eggFertilizedDef>
-			        <eggFertilizationCountMax>1</eggFertilizationCountMax>
-			        <eggLayIntervalDays>15</eggLayIntervalDays>
-			        <eggCountRange>
-			          <min>1</min>
-			          <max>2</max>
-			        </eggCountRange>
-			    </li>
-			</comps>
-		</value>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/ThingDef[defName = "Iguana"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<success>Normal</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "Iguana"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<value>
+					<eggUnfertilizedDef>EggUnfertilizedSmall</eggUnfertilizedDef>
+				</value>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName = "Iguana"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+			</li>
+		</operations>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/ThingDef[defName = "Dromedary"]/race</xpath>
@@ -81,19 +82,23 @@
 			<useMeatFrom>Chicken</useMeatFrom>
 		</value>
 	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName = "Cassowary"]/comps</xpath>
-		<value>
-			<comps>
-				<li Class="CompProperties_EggLayer">
-			    	<eggUnfertilizedDef>EggUnfertilizedLarge</eggUnfertilizedDef>
-			    	<eggFertilizedDef>EggCassowaryFertilized</eggFertilizedDef>
-			        <eggFertilizationCountMax>1</eggFertilizationCountMax>
-			        <eggLayIntervalDays>17</eggLayIntervalDays>
-			        <eggCountRange>1</eggCountRange>
-			    </li>
-			</comps>
-		</value>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/ThingDef[defName = "Cassowary"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<success>Normal</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "Cassowary"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<value>
+					<eggUnfertilizedDef>EggUnfertilizedLarge</eggUnfertilizedDef>
+				</value>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName = "Cassowary"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+			</li>
+		</operations>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[defName = "Emu"]/race/useMeatFrom</xpath>
@@ -101,19 +106,23 @@
 			<useMeatFrom>Chicken</useMeatFrom>
 		</value>
 	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName = "Emu"]/comps</xpath>
-		<value>
-			<comps>
-				<li Class="CompProperties_EggLayer">
-			    	<eggUnfertilizedDef>EggUnfertilizedLarge</eggUnfertilizedDef>
-			    	<eggFertilizedDef>EggEmuFertilized</eggFertilizedDef>
-			        <eggFertilizationCountMax>1</eggFertilizationCountMax>
-			        <eggLayIntervalDays>17</eggLayIntervalDays>
-			        <eggCountRange>1</eggCountRange>
-			    </li>
-			</comps>
-		</value>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/ThingDef[defName = "Emu"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<success>Normal</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "Emu"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<value>
+					<eggUnfertilizedDef>EggUnfertilizedLarge</eggUnfertilizedDef>
+				</value>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName = "Emu"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+			</li>
+		</operations>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[defName = "Ostrich"]/race/useMeatFrom</xpath>
@@ -121,39 +130,47 @@
 			<useMeatFrom>Chicken</useMeatFrom>
 		</value>
 	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName = "Ostrich"]/comps</xpath>
-		<value>
-			<comps>
-				<li Class="CompProperties_EggLayer">
-			    	<eggUnfertilizedDef>EggUnfertilizedLarge</eggUnfertilizedDef>
-			    	<eggFertilizedDef>EggOstrichFertilized</eggFertilizedDef>
-			        <eggFertilizationCountMax>1</eggFertilizationCountMax>
-			        <eggLayIntervalDays>19</eggLayIntervalDays>
-			        <eggCountRange>1</eggCountRange>
-			    </li>
-			</comps>
-		</value>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/ThingDef[defName = "Ostrich"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<success>Normal</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "Ostrich"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<value>
+					<eggUnfertilizedDef>EggUnfertilizedLarge</eggUnfertilizedDef>
+				</value>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName = "Ostrich"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+			</li>
+		</operations>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/ThingDef[defName = "Turkey"]/race</xpath>
 		<value>
-			<useMeatFrom>Iguana</useMeatFrom>
+			<useMeatFrom>Chicken</useMeatFrom>
 		</value>
 	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName = "Turkey"]/comps</xpath>
-		<value>
-			<comps>
-				<li Class="CompProperties_EggLayer">
-			    	<eggUnfertilizedDef>EggUnfertilizedLarge</eggUnfertilizedDef>
-			    	<eggFertilizedDef>EggTurkeyFertilized</eggFertilizedDef>
-			        <eggFertilizationCountMax>1</eggFertilizationCountMax>
-			        <eggLayIntervalDays>11</eggLayIntervalDays>
-			        <eggCountRange>1</eggCountRange>
-			    </li>
-			</comps>
-		</value>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/ThingDef[defName = "Turkey"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<success>Normal</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "Turkey"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<value>
+					<eggUnfertilizedDef>EggUnfertilizedLarge</eggUnfertilizedDef>
+				</value>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName = "Turkey"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+			</li>
+		</operations>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/ThingDef[defName = "Chicken"]/race</xpath>
@@ -161,19 +178,23 @@
 			<meatLabel>poultry</meatLabel>
 		</value>
 	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName = "Chicken"]/comps</xpath>
-		<value>
-			<comps>
-				<li Class="CompProperties_EggLayer">
-			    	<eggUnfertilizedDef>EggUnfertilizedSmall</eggUnfertilizedDef>
-			    	<eggFertilizedDef>EggChickenFertilized</eggFertilizedDef>
-			        <eggFertilizationCountMax>1</eggFertilizationCountMax>
-			        <eggLayIntervalDays>1</eggLayIntervalDays>
-			        <eggCountRange>1</eggCountRange>
-			    </li>
-			</comps>
-		</value>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/ThingDef[defName = "Chicken"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<success>Normal</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "Chicken"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<value>
+					<eggUnfertilizedDef>EggUnfertilizedSmall</eggUnfertilizedDef>
+				</value>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName = "Chicken"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+			</li>
+		</operations>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[defName = "Pig"]/race/meatLabel</xpath>
@@ -214,7 +235,7 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/ThingDef[defName = "Thrumbo"]/race</xpath>
 		<value>
-			<useMeatFrom>Bear_Grizzly</useMeatFrom>
+			<useMeatFrom>Iguana</useMeatFrom>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
@@ -288,7 +309,7 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/ThingDef[defName = "Raccoon"]/race</xpath>
 		<value>
-			<useMeatFrom>Iguana</useMeatFrom>
+			<useMeatFrom>Squirrel</useMeatFrom>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
@@ -333,22 +354,23 @@
 			<useMeatFrom>Iguana</useMeatFrom>
 		</value>
 	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName = "Tortoise"]/comps</xpath>
-		<value>
-			<comps>
-				<li Class="CompProperties_EggLayer">
-			    	<eggUnfertilizedDef>EggUnfertilizedSmall</eggUnfertilizedDef>
-			    	<eggFertilizedDef>EggTortoiseFertilized</eggFertilizedDef>
-			        <eggFertilizationCountMax>1</eggFertilizationCountMax>
-			        <eggLayIntervalDays>20</eggLayIntervalDays>
-			        <eggCountRange>
-			          <min>1</min>
-			          <max>3</max>
-			        </eggCountRange>
-			    </li>
-			</comps>
-		</value>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/ThingDef[defName = "Tortoise"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<success>Normal</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "Tortoise"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<value>
+					<eggUnfertilizedDef>EggUnfertilizedSmall</eggUnfertilizedDef>
+				</value>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName = "Tortoise"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+			</li>
+		</operations>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[defName = "Cobra"]/race/meatLabel</xpath>
@@ -356,22 +378,23 @@
 			<useMeatFrom>Iguana</useMeatFrom>
 		</value>
 	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName = "Cobra"]/comps</xpath>
-		<value>
-			<comps>
-				<li Class="CompProperties_EggLayer">
-			    	<eggUnfertilizedDef>EggUnfertilizedSmall</eggUnfertilizedDef>
-			    	<eggFertilizedDef>EggCobraFertilized</eggFertilizedDef>
-				    <eggFertilizationCountMax>1</eggFertilizationCountMax>
-				    <eggLayIntervalDays>20.0</eggLayIntervalDays>
-				    <eggCountRange>
-				      <min>1</min>
-				      <max>2</max>
-				    </eggCountRange>  
-			    </li>
-			</comps>
-		</value>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/ThingDef[defName = "Cobra"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<success>Normal</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "Cobra"]/comps/li[@Class = "CompProperties_EggLayer"]/eggUnfertilizedDef</xpath>
+				<value>
+					<eggUnfertilizedDef>EggUnfertilizedSmall</eggUnfertilizedDef>
+				</value>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName = "Cobra"]/comps/li[@Class = "CompProperties_EggLayer"]/eggProgressUnfertilizedMax</xpath>
+			</li>
+		</operations>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/ThingDef[defName = "Monkey"]/race</xpath>

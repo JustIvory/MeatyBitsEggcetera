@@ -5,7 +5,7 @@
 		<label>egg (Sm)</label>
 		<description>A small unfertilized egg. It can be eaten raw, but it's much, much better cooked.</description>
 		<graphicData>
-			<texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggSmall</texPath>
 			<color>(228,185,135)</color>
 			<drawSize>0.8</drawSize>
 		</graphicData>

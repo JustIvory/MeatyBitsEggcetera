@@ -2,7 +2,9 @@
 <ModMetaData>
 	<name>Meaty Bits and Eggcetera</name>
 	<author>Justine Ivor</author>
-	<targetVersion>1.0.2059</targetVersion>
+	<supportedVersions>
+		<li>1.0</li>
+	</supportedVersions>
 	<description>
 Meat from creatures have been simplified into fewer types for easy sorting and storage. These meat types can be chopped and combined to make minced meat. Animals also lay simplified types of unfertilized eggs that can be stacked for easy storage.
 
@@ -20,7 +22,7 @@ Meat Types:
  - Exotic meat
  - Meat scraps
 
- Meat types with use of other mods:
+Meat types with use of other mods:
  - Mutton
  - Seafood
 
@@ -43,6 +45,9 @@ Built in support for other mods:
  - Orassans (outdated)
  - Tree People (outdated)
  - Cab's Beat The Meat
+ - FFGerman Shepherd
+ - FF Smilodon Populator
+ - Vanilla Animals Overhaul Reloaded
 
  Mods that do not require a patch:
  - Astoriel

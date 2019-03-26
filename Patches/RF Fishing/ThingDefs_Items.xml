@@ -4,8 +4,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "RawFishMeat"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "RawFishMeat"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "RawFishMeat"]/label</xpath>
@@ -19,8 +19,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "RawSquidMeat"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "RawSquidMeat"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationRemove">
 				<xpath>/Defs/ThingDef[defName = "RawSquidMeat"]/thingCategories</xpath>
@@ -31,8 +31,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "RawEelMeat"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "RawEelMeat"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationRemove">
 				<xpath>/Defs/ThingDef[defName = "RawEelMeat"]/thingCategories</xpath>
@@ -43,8 +43,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "JellyfishMeat"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "JellyfishMeat"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationRemove">
 				<xpath>/Defs/ThingDef[defName = "JellyfishMeat"]/thingCategories</xpath>
@@ -55,8 +55,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "PufferfishMeat"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "PufferfishMeat"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationRemove">
 				<xpath>/Defs/ThingDef[defName = "PufferfishMeat"]/thingCategories</xpath>
@@ -67,8 +67,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "SeaCucumberMeat"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "SeaCucumberMeat"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationRemove">
 				<xpath>/Defs/ThingDef[defName = "SeaCucumberMeat"]/thingCategories</xpath>
@@ -79,8 +79,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "RawShellfishMeat"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "RawShellfishMeat"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationRemove">
 				<xpath>/Defs/ThingDef[defName = "RawShellfishMeat"]/thingCategories</xpath>
@@ -91,8 +91,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "RawSnailMeat"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "RawSnailMeat"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationRemove">
 				<xpath>/Defs/ThingDef[defName = "RawSnailMeat"]/thingCategories</xpath>
@@ -103,8 +103,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/ThingDef[defName = "RawShrimpMeat"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/ThingDef[defName = "RawShrimpMeat"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationRemove">
 				<xpath>/Defs/ThingDef[defName = "RawShrimpMeat"]/thingCategories</xpath>

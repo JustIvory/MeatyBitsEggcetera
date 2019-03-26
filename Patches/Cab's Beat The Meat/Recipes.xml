@@ -4,8 +4,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/RecipeDef[defName = "Cab_sPrepBacon"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/RecipeDef[defName = "Cab_sPrepBacon"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/RecipeDef[defName = "Cab_sPrepBacon"]/fixedIngredientFilter/thingDefs</xpath>
@@ -22,8 +22,8 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/Defs/RecipeDef[defName = "Cab_sPrepBacon"]</xpath>
-				<success>Invert</success>
+				<xpath>/Defs/RecipeDef[defName = "Cab_sPrepBacon"]</xpath>
+				<success>Normal</success>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/RecipeDef[defName = "Cab_sPrepBacon"]/defaultIngredientFilter/thingDefs</xpath>

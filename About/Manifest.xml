@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
     <identifier>MeatyBitsEggcetera</identifier>
-    <version>1.0.3</version>
+    <version>1.0.5</version>
     <manifestUri>https://raw.githubusercontent.com/JustIvory/MeatyBitsEggcetera/master/About/Manifest.xml</manifestUri>
     <downloadUri>https://www.nexusmods.com/rimworld/mods/267</downloadUri>
     <loadAfter>
@@ -16,5 +16,10 @@
         <li>VulpineRacePack</li>
         <li>XennRace</li>
         <li>Spidercamp'sDogPack(1.0)</li>
+        <li>FFGermanShepherd</li>
+        <li>FFGermanShepherd Caravaneer re-upload</li>
+        <li>FFSmilodonPopulator</li>
+        <li>FFSmilodon caravaneer</li>
+        <li>Vanilla Animals Overhaul Reloaded</li>
     </loadAfter>
 </Manifest>

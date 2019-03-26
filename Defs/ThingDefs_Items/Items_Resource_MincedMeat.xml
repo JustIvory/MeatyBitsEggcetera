@@ -33,7 +33,7 @@
     <ingestible>
       <preferability>RawBad</preferability>
       <tasteThought>AteRawFood</tasteThought>
-      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestEffect>EatMeat</ingestEffect>
       <ingestSound>RawMeat_Eat</ingestSound>
       <foodType>Meat</foodType>
     </ingestible>
